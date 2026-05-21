@@ -2,7 +2,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center h-16">
             <div class="flex-shrink-0 flex items-center">
-                <a href="{{ route('home') }}" class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600">DevPort.</a>
+                <a href="{{ route('home') }}" class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600">Afriza.</a>
             </div>
             <nav class="hidden md:flex space-x-8">
                 <a href="{{ route('home') }}" class="text-gray-600 hover:text-indigo-600 font-medium transition-colors">Home</a>
