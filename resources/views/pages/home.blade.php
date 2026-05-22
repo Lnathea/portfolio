@@ -41,9 +41,13 @@
                     <svg class="w-8 h-8 mr-3 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
                     About Me
                 </h3>
-                <p class="text-gray-600 text-lg leading-relaxed mb-6">
-                    Mahasiswa semester 6 Teknologi Informasi di Telkom University dengan minat di pengembangan teknologi dan problem-solving. Berpengalaman di berbagai proyek akademik, mampu bekerja mandiri maupun tim.
-                </p>
+                <div class="text-gray-600 text-lg leading-relaxed mb-6 space-y-4">
+                    <p>Halo! Saya Muhammad Afriza Hidayat, mahasiswa semester 6 Teknologi Informasi di Telkom University Jakarta. Saya memiliki ketertarikan mendalam di bidang pengembangan teknologi, kecerdasan buatan, dan IoT.</p>
+                    <p>Selama perkuliahan, saya aktif mengerjakan berbagai proyek akademik mulai dari UI/UX Design, Machine Learning, IoT System, hingga QA Testing. Saya juga dipercaya sebagai Asisten Laboratorium Sistem Operasi di Telkom University Jakarta, di mana saya membantu mahasiswa memahami konsep sistem operasi dan lingkungan Linux.</p>
+                    <p>Di luar akademik, saya aktif di organisasi Himpunan Mahasiswa Teknologi Informasi (HMIT) dan Google Developer Groups on Campus Telkom University Jakarta, yang memperkuat kemampuan kolaborasi dan kepemimpinan saya.</p>
+                    <p>Saya memiliki kemampuan di berbagai teknologi seperti Laravel, Python, Go, dan pengalaman di bidang Data & AI menggunakan Pandas, Numpy, dan Scikit-learn. Saya juga telah menyelesaikan beberapa sertifikasi profesional di bidang Data Science, Cloud Security, dan AI.</p>
+                    <p>Saya adalah pribadi yang adaptif, detail-oriented, dan selalu semangat untuk terus belajar hal baru di dunia teknologi.</p>
+                </div>
                 <div class="flex items-center text-gray-600 mb-2 font-medium">
                     <svg class="w-5 h-5 mr-3 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
                     Bekasi, Indonesia
