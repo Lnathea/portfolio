@@ -57,13 +57,13 @@
                     mhmdafrizahdyt06@gmail.com
                 </div>
             </div>
-            
+
             <div>
                 <h3 class="text-3xl font-bold text-gray-900 mb-6 flex items-center">
                     <svg class="w-8 h-8 mr-3 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"></path></svg>
                     Education & Experience
                 </h3>
-                
+
                 <div class="space-y-8">
                     <!-- Education -->
                     <div class="relative pl-6 border-l-2 border-indigo-200">
@@ -81,7 +81,7 @@
                             <span class="text-sm font-semibold text-indigo-700">Current GPA: 3.87 / 4.00</span>
                         </div>
                     </div>
-                    
+
                     <!-- Experience 1 -->
                     <div class="relative pl-6 border-l-2 border-indigo-200">
                         <div class="absolute w-3 h-3 bg-indigo-600 rounded-full -left-[7px] top-1.5"></div>
@@ -94,7 +94,7 @@
                             <img src="{{ asset('images/experience/asprak-2.jpeg') }}" alt="Lab Assistant 2" class="w-full h-32 md:h-40 object-cover rounded-lg border border-gray-200 shadow-sm hover:scale-[1.02] transition-transform">
                         </div>
                     </div>
-                    
+
                     <!-- Experience 2 -->
                     <div class="relative pl-6 border-l-2 border-indigo-200">
                         <div class="absolute w-3 h-3 bg-indigo-600 rounded-full -left-[7px] top-1.5"></div>
@@ -129,7 +129,7 @@
 <section class="py-16 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            
+
             <!-- Skills -->
             <div>
                 <h3 class="text-3xl font-bold text-gray-900 mb-8">Technical Skills</h3>
@@ -143,7 +143,7 @@
                             <span class="px-3 py-1.5 bg-white border border-gray-200 rounded-lg text-sm font-medium text-gray-700 shadow-sm">Java</span>
                         </div>
                     </div>
-                    
+
                     <div>
                         <h4 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">Web Development & DB</h4>
                         <div class="flex flex-wrap gap-2">
@@ -154,7 +154,7 @@
                             <span class="px-3 py-1.5 bg-white border border-gray-200 rounded-lg text-sm font-medium text-gray-700 shadow-sm">SQL</span>
                         </div>
                     </div>
-                    
+
                     <div>
                         <h4 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">Data, AI & Tools</h4>
                         <div class="flex flex-wrap gap-2">
@@ -175,32 +175,119 @@
                     </div>
                 </div>
             </div>
-            
+
             <!-- Certifications -->
             <div>
                 <h3 class="text-3xl font-bold text-gray-900 mb-8 flex items-center">
                     <svg class="w-8 h-8 mr-3 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path></svg>
                     Certifications
                 </h3>
-                
+
                 <div class="space-y-4">
                     <div class="bg-white p-4 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow flex items-center gap-5">
                         <img src="{{ asset('images/certifications/Certi-Python.jpg') }}" alt="Python Certification" class="w-24 h-auto rounded shadow-sm border border-gray-200">
                         <h4 class="font-bold text-gray-900 leading-tight">Python Fundamental for Data Science</h4>
                     </div>
-                    
+
                     <div class="bg-white p-4 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow flex items-center gap-5">
                         <img src="{{ asset('images/certifications/Certi-GCC.jpg') }}" alt="Google Cloud Cybersecurity" class="w-24 h-auto rounded shadow-sm border border-gray-200">
                         <h4 class="font-bold text-gray-900 leading-tight">Google Cloud Cybersecurity Certificate</h4>
                     </div>
-                    
+
                     <div class="bg-white p-4 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow flex items-center gap-5">
                         <img src="{{ asset('images/certifications/Certi-AI900.jpg') }}" alt="Azure AI-900" class="w-24 h-auto rounded shadow-sm border border-gray-200">
                         <h4 class="font-bold text-gray-900 leading-tight">Azure AI Fundamentals (AI-900)</h4>
                     </div>
                 </div>
             </div>
-            
+
+        </div>
+    </div>
+</section>
+
+<!-- Organizations & Languages -->
+<section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+
+            <!-- Organizations -->
+            <div>
+                <h3 class="text-3xl font-bold text-gray-900 mb-8 flex items-center">
+                    <svg class="w-8 h-8 mr-3 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                    Organizations
+                </h3>
+
+                <div class="space-y-4">
+                    <!-- HMIT -->
+                    <div class="bg-gray-50 p-5 rounded-2xl border border-gray-100 hover:shadow-lg hover:border-indigo-100 transition-all duration-300 group">
+                        <div class="flex items-start gap-4">
+                            <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center flex-shrink-0 shadow-md group-hover:scale-105 transition-transform duration-300">
+                                <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-gray-900 mb-1">Himpunan Mahasiswa Teknologi Informasi (HMIT)</h4>
+                                <p class="text-indigo-600 font-medium text-sm">Telkom University Jakarta</p>
+                                <span class="inline-block mt-2 px-3 py-1 bg-indigo-50 text-indigo-700 text-xs font-semibold rounded-full border border-indigo-100">Active Member</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- GDG on Campus -->
+                    <div class="bg-gray-50 p-5 rounded-2xl border border-gray-100 hover:shadow-lg hover:border-indigo-100 transition-all duration-300 group">
+                        <div class="flex items-start gap-4">
+                            <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-green-500 via-blue-500 to-yellow-500 flex items-center justify-center flex-shrink-0 shadow-md group-hover:scale-105 transition-transform duration-300">
+                                <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-gray-900 mb-1">Google Developer Groups on Campus</h4>
+                                <p class="text-indigo-600 font-medium text-sm">Telkom University Jakarta</p>
+                                <span class="inline-block mt-2 px-3 py-1 bg-green-50 text-green-700 text-xs font-semibold rounded-full border border-green-100">Active Member</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Languages -->
+            <div>
+                <h3 class="text-3xl font-bold text-gray-900 mb-8 flex items-center">
+                    <svg class="w-8 h-8 mr-3 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"></path></svg>
+                    Languages
+                </h3>
+
+                <div class="space-y-6">
+                    <!-- Indonesian -->
+                    <div class="bg-gray-50 p-5 rounded-2xl border border-gray-100">
+                        <div class="flex justify-between items-center mb-3">
+                            <div class="flex items-center gap-3">
+                                <span class="text-2xl">🇮🇩</span>
+                                <h4 class="text-lg font-bold text-gray-900">Indonesian</h4>
+                            </div>
+                            <span class="px-3 py-1 bg-indigo-600 text-white text-xs font-bold rounded-full shadow-sm">Native</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-3 overflow-hidden">
+                            <div class="bg-gradient-to-r from-blue-500 to-indigo-600 h-3 rounded-full transition-all duration-1000 ease-out" style="width: 100%"></div>
+                        </div>
+                        <p class="text-xs text-gray-500 mt-2 text-right font-medium">100%</p>
+                    </div>
+
+                    <!-- English -->
+                    <div class="bg-gray-50 p-5 rounded-2xl border border-gray-100">
+                        <div class="flex justify-between items-center mb-3">
+                            <div class="flex items-center gap-3">
+                                <span class="text-2xl">🇬🇧</span>
+                                <h4 class="text-lg font-bold text-gray-900">English</h4>
+                            </div>
+                            <span class="px-3 py-1 bg-emerald-600 text-white text-xs font-bold rounded-full shadow-sm">Professional Working Proficiency</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-3 overflow-hidden">
+                            <div class="bg-gradient-to-r from-emerald-400 to-emerald-600 h-3 rounded-full transition-all duration-1000 ease-out" style="width: 80%"></div>
+                        </div>
+                        <p class="text-xs text-gray-500 mt-2 text-right font-medium">80%</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
