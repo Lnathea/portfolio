@@ -42,11 +42,11 @@
                     About Me
                 </h3>
                 <div class="text-gray-600 text-lg leading-relaxed mb-6 space-y-4">
-                    <p>Halo! Saya Muhammad Afriza Hidayat, mahasiswa semester 6 Teknologi Informasi di Telkom University Jakarta. Saya memiliki ketertarikan mendalam di bidang pengembangan teknologi, kecerdasan buatan, dan IoT.</p>
-                    <p>Selama perkuliahan, saya aktif mengerjakan berbagai proyek akademik mulai dari UI/UX Design, Machine Learning, IoT System, hingga QA Testing. Saya juga dipercaya sebagai Asisten Laboratorium Sistem Operasi di Telkom University Jakarta, di mana saya membantu mahasiswa memahami konsep sistem operasi dan lingkungan Linux.</p>
-                    <p>Di luar akademik, saya aktif di organisasi Himpunan Mahasiswa Teknologi Informasi (HMIT) dan Google Developer Groups on Campus Telkom University Jakarta, yang memperkuat kemampuan kolaborasi dan kepemimpinan saya.</p>
-                    <p>Saya memiliki kemampuan di berbagai teknologi seperti Laravel, Python, Go, dan pengalaman di bidang Data & AI menggunakan Pandas, Numpy, dan Scikit-learn. Saya juga telah menyelesaikan beberapa sertifikasi profesional di bidang Data Science, Cloud Security, dan AI.</p>
-                    <p>Saya adalah pribadi yang adaptif, detail-oriented, dan selalu semangat untuk terus belajar hal baru di dunia teknologi.</p>
+                    <p>Hello! I'm Muhammad Afriza Hidayat, a 6th semester Information Technology student at Telkom University Jakarta. I have a deep interest in technology development, artificial intelligence, and IoT systems.</p>
+                    <p>Throughout my studies, I have actively worked on various academic projects ranging from UI/UX Design, Machine Learning, IoT Systems, to QA Testing. I am also trusted as an Operating Systems Lab Assistant at Telkom University Jakarta, where I help students understand operating system concepts and Linux environments.</p>
+                    <p>Beyond academics, I am actively involved in the Information Technology Student Association (HMIT) and Google Developer Groups on Campus at Telkom University Jakarta, which has strengthened my collaboration and leadership skills.</p>
+                    <p>I am proficient in various technologies such as Laravel, Python, Go, and have experience in Data &amp; AI using Pandas, Numpy, and Scikit-learn. I have also completed several professional certifications in Data Science, Cloud Security, and AI.</p>
+                    <p>I am an adaptive, detail-oriented individual who is always eager to continuously learn new things in the world of technology.</p>
                 </div>
                 <div class="flex items-center text-gray-600 mb-2 font-medium">
                     <svg class="w-5 h-5 mr-3 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
@@ -75,7 +75,11 @@
                                 <p class="text-indigo-600 font-medium">Telkom University</p>
                             </div>
                         </div>
-                        <p class="text-gray-500 text-sm">2023 - 2027</p>
+                        <p class="text-gray-500 text-sm">Sep 2023 – Sep 2027</p>
+                        <div class="mt-2 inline-flex items-center px-3 py-1 bg-indigo-50 border border-indigo-100 rounded-full">
+                            <svg class="w-4 h-4 mr-1.5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span class="text-sm font-semibold text-indigo-700">Current GPA: 3.87 / 4.00</span>
+                        </div>
                     </div>
                     
                     <!-- Experience 1 -->
@@ -83,7 +87,8 @@
                         <div class="absolute w-3 h-3 bg-indigo-600 rounded-full -left-[7px] top-1.5"></div>
                         <h4 class="text-lg font-bold text-gray-900">Operating Systems Lab Assistant</h4>
                         <p class="text-indigo-600 font-medium mb-1">Telkom University Jakarta</p>
-                        <p class="text-gray-500 text-sm mb-3">Feb 2026 - Present</p>
+                        <p class="text-gray-500 text-sm mb-2">Feb 2026 – Present</p>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-3">Assisted students in network and systems practicum, including hands-on configuration of network devices and operating systems. Ensured proper lab procedures, assessed student performance, and bridged the gap between theoretical concepts and real-world IT applications.</p>
                         <div class="grid grid-cols-2 gap-3 mt-2">
                             <img src="{{ asset('images/experience/asprak-1.jpeg') }}" alt="Lab Assistant 1" class="w-full h-32 md:h-40 object-cover rounded-lg border border-gray-200 shadow-sm hover:scale-[1.02] transition-transform">
                             <img src="{{ asset('images/experience/asprak-2.jpeg') }}" alt="Lab Assistant 2" class="w-full h-32 md:h-40 object-cover rounded-lg border border-gray-200 shadow-sm hover:scale-[1.02] transition-transform">
@@ -95,7 +100,20 @@
                         <div class="absolute w-3 h-3 bg-indigo-600 rounded-full -left-[7px] top-1.5"></div>
                         <h4 class="text-lg font-bold text-gray-900">Logistics Officer</h4>
                         <p class="text-indigo-600 font-medium mb-1">SMA Negeri 2 Tambun Selatan</p>
-                        <p class="text-gray-500 text-sm mb-3">Des 2022 - Jan 2023</p>
+                        <p class="text-gray-500 text-sm mb-1">Des 2022 – Jan 2023</p>
+                        <p class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">Event: Colouring Environment #6</p>
+                        <ol class="text-gray-600 text-sm leading-relaxed mb-3 list-decimal pl-4 space-y-1">
+                            <li>Compiled a list of logistical needs (sound system, stage, lighting, chairs, tents, generators, cables, etc.)</li>
+                            <li>Determined the number and type of equipment needed with the production team.</li>
+                            <li>Provided and coordinated technical equipment such as mics, speakers, mixers, cables, and other attachments.</li>
+                            <li>Worked with vendors or equipment renters.</li>
+                            <li>Organized the loading and unloading process of equipment.</li>
+                            <li>Supervised the installation of the stage, sound system, and lighting.</li>
+                            <li>Provided emergency or additional logistics if any were lacking.</li>
+                            <li>Kept equipment safe during the concert.</li>
+                            <li>Organized the dismantling of all equipment after the event.</li>
+                            <li>Returned rented or third-party equipment.</li>
+                        </ol>
                         <div class="grid grid-cols-2 gap-3 mt-2">
                             <img src="{{ asset('images/experience/lo-1.jpeg') }}" alt="Logistics 1" class="w-full h-32 md:h-40 object-cover rounded-lg border border-gray-200 shadow-sm hover:scale-[1.02] transition-transform">
                             <img src="{{ asset('images/experience/lo-2.jpeg') }}" alt="Logistics 2" class="w-full h-32 md:h-40 object-cover rounded-lg border border-gray-200 shadow-sm hover:scale-[1.02] transition-transform">
