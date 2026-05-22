@@ -14,6 +14,9 @@
             
             <!-- Project 1 -->
             <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-xl transition-all duration-300 group flex flex-col">
+                <div class="h-48 bg-gray-100 w-full flex items-center justify-center text-gray-400">
+                    <span class="text-sm">No Image Available</span>
+                </div>
                 <div class="p-6 flex-grow">
                     <div class="flex justify-between items-start mb-4">
                         <h3 class="text-xl font-bold text-gray-900">RTKu</h3>
@@ -33,6 +36,10 @@
 
             <!-- Project 2 -->
             <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-xl transition-all duration-300 group flex flex-col">
+                <div class="h-48 grid grid-cols-2 w-full overflow-hidden">
+                    <img src="{{ asset('images/projects/fish-feeder1.jpeg') }}" alt="Smart Fish Feeder 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 border-r border-gray-100">
+                    <img src="{{ asset('images/projects/fish-feeder2.jpeg') }}" alt="Smart Fish Feeder 2" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                </div>
                 <div class="p-6 flex-grow">
                     <div class="flex justify-between items-start mb-4">
                         <h3 class="text-xl font-bold text-gray-900">Smart Fish Feeder</h3>
@@ -53,6 +60,9 @@
 
             <!-- Project 3 -->
             <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-xl transition-all duration-300 group flex flex-col">
+                <div class="h-48 bg-gray-100 w-full flex items-center justify-center text-gray-400">
+                    <span class="text-sm">No Image Available</span>
+                </div>
                 <div class="p-6 flex-grow">
                     <div class="flex justify-between items-start mb-4">
                         <h3 class="text-xl font-bold text-gray-900 leading-tight">Heart Disease Risk</h3>
@@ -72,6 +82,10 @@
 
             <!-- Project 4 -->
             <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-xl transition-all duration-300 group flex flex-col">
+                <div class="h-48 grid grid-cols-2 w-full overflow-hidden">
+                    <img src="{{ asset('images/projects/HealthApp1.jpeg') }}" alt="AI Health App 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 border-r border-gray-100">
+                    <img src="{{ asset('images/projects/HealthApp2.jpeg') }}" alt="AI Health App 2" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                </div>
                 <div class="p-6 flex-grow">
                     <div class="flex justify-between items-start mb-4">
                         <h3 class="text-xl font-bold text-gray-900">AI Health App</h3>
@@ -90,6 +104,9 @@
 
             <!-- Project 5 -->
             <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-xl transition-all duration-300 group flex flex-col">
+                <div class="h-48 bg-gray-100 w-full flex items-center justify-center text-gray-400">
+                    <span class="text-sm">No Image Available</span>
+                </div>
                 <div class="p-6 flex-grow">
                     <div class="flex justify-between items-start mb-4">
                         <h3 class="text-xl font-bold text-gray-900">Linux Simulation</h3>

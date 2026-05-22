@@ -5,19 +5,28 @@
 <section class="py-20 lg:py-32 overflow-hidden relative">
     <div class="absolute inset-0 bg-gradient-to-b from-indigo-50 to-white -z-10"></div>
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-        <div class="text-center max-w-3xl mx-auto">
-            <h1 class="text-5xl md:text-6xl font-extrabold tracking-tight text-gray-900 mb-6">
-                Hi, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Muhammad Afriza Hidayat</span>
-            </h1>
-            <h2 class="text-2xl text-gray-700 font-medium mb-6">
-                Information Technology Student & Developer
-            </h2>
-            <p class="text-xl text-gray-600 mb-10 leading-relaxed italic">
-                "Mahasiswa IT Telkom University yang passionate di Web Development, AI, dan IoT"
-            </p>
-            <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="{{ route('projects') }}" class="px-8 py-3 bg-indigo-600 text-white rounded-full font-medium shadow-lg shadow-indigo-200 hover:bg-indigo-700 hover:-translate-y-1 transition-all duration-300">View My Work</a>
-                <a href="{{ route('contact') }}" class="px-8 py-3 bg-white text-gray-900 border border-gray-200 rounded-full font-medium shadow-sm hover:border-gray-300 hover:bg-gray-50 transition-all duration-300">Contact Me</a>
+        <div class="flex flex-col-reverse lg:flex-row items-center justify-between gap-12">
+            <div class="text-center lg:text-left max-w-2xl">
+                <h1 class="text-5xl md:text-6xl font-extrabold tracking-tight text-gray-900 mb-6">
+                    Hi, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Muhammad Afriza Hidayat</span>
+                </h1>
+                <h2 class="text-2xl text-gray-700 font-medium mb-6">
+                    Information Technology Student & Developer
+                </h2>
+                <p class="text-xl text-gray-600 mb-10 leading-relaxed italic">
+                    "Mahasiswa IT Telkom University yang passionate di Web Development, AI, dan IoT"
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
+                    <a href="{{ route('projects') }}" class="px-8 py-3 bg-indigo-600 text-white rounded-full font-medium shadow-lg shadow-indigo-200 hover:bg-indigo-700 hover:-translate-y-1 transition-all duration-300">View My Work</a>
+                    <a href="{{ route('contact') }}" class="px-8 py-3 bg-white text-gray-900 border border-gray-200 rounded-full font-medium shadow-sm hover:border-gray-300 hover:bg-gray-50 transition-all duration-300">Contact Me</a>
+                </div>
+            </div>
+            <div class="relative lg:w-96 flex-shrink-0 mb-8 lg:mb-0">
+                <div class="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white shadow-2xl relative z-10 mx-auto">
+                    <img src="{{ asset('images/profile/profile-afriza.jpeg') }}" alt="Muhammad Afriza Hidayat" class="w-full h-full object-cover">
+                </div>
+                <!-- Decorative background blob -->
+                <div class="absolute inset-0 bg-gradient-to-tr from-blue-400 to-indigo-500 rounded-full blur-3xl opacity-30 -z-10 scale-110"></div>
             </div>
         </div>
     </div>
@@ -51,12 +60,17 @@
                     Education & Experience
                 </h3>
                 
-                <div class="space-y-6">
+                <div class="space-y-8">
                     <!-- Education -->
                     <div class="relative pl-6 border-l-2 border-indigo-200">
                         <div class="absolute w-3 h-3 bg-indigo-600 rounded-full -left-[7px] top-1.5"></div>
-                        <h4 class="text-lg font-bold text-gray-900">Bachelor of Information Technology</h4>
-                        <p class="text-indigo-600 font-medium">Telkom University</p>
+                        <div class="flex items-center gap-4 mb-2">
+                            <img src="{{ asset('images/education/logo-telkom.png') }}" alt="Telkom University" class="w-12 h-12 object-contain bg-gray-50 rounded-lg p-1 border border-gray-100">
+                            <div>
+                                <h4 class="text-lg font-bold text-gray-900">Bachelor of Information Technology</h4>
+                                <p class="text-indigo-600 font-medium">Telkom University</p>
+                            </div>
+                        </div>
                         <p class="text-gray-500 text-sm">2023 - 2027</p>
                     </div>
                     
@@ -64,16 +78,24 @@
                     <div class="relative pl-6 border-l-2 border-indigo-200">
                         <div class="absolute w-3 h-3 bg-indigo-600 rounded-full -left-[7px] top-1.5"></div>
                         <h4 class="text-lg font-bold text-gray-900">Operating Systems Lab Assistant</h4>
-                        <p class="text-indigo-600 font-medium">Telkom University Jakarta</p>
-                        <p class="text-gray-500 text-sm">Feb 2026 - Present</p>
+                        <p class="text-indigo-600 font-medium mb-1">Telkom University Jakarta</p>
+                        <p class="text-gray-500 text-sm mb-3">Feb 2026 - Present</p>
+                        <div class="grid grid-cols-2 gap-3 mt-2">
+                            <img src="{{ asset('images/experience/asprak-1.jpeg') }}" alt="Lab Assistant 1" class="w-full h-32 md:h-40 object-cover rounded-lg border border-gray-200 shadow-sm hover:scale-[1.02] transition-transform">
+                            <img src="{{ asset('images/experience/asprak-2.jpeg') }}" alt="Lab Assistant 2" class="w-full h-32 md:h-40 object-cover rounded-lg border border-gray-200 shadow-sm hover:scale-[1.02] transition-transform">
+                        </div>
                     </div>
                     
                     <!-- Experience 2 -->
                     <div class="relative pl-6 border-l-2 border-indigo-200">
                         <div class="absolute w-3 h-3 bg-indigo-600 rounded-full -left-[7px] top-1.5"></div>
                         <h4 class="text-lg font-bold text-gray-900">Logistics Officer</h4>
-                        <p class="text-indigo-600 font-medium">SMA Negeri 2 Tambun Selatan</p>
-                        <p class="text-gray-500 text-sm">Des 2022 - Jan 2023</p>
+                        <p class="text-indigo-600 font-medium mb-1">SMA Negeri 2 Tambun Selatan</p>
+                        <p class="text-gray-500 text-sm mb-3">Des 2022 - Jan 2023</p>
+                        <div class="grid grid-cols-2 gap-3 mt-2">
+                            <img src="{{ asset('images/experience/lo-1.jpeg') }}" alt="Logistics 1" class="w-full h-32 md:h-40 object-cover rounded-lg border border-gray-200 shadow-sm hover:scale-[1.02] transition-transform">
+                            <img src="{{ asset('images/experience/lo-2.jpeg') }}" alt="Logistics 2" class="w-full h-32 md:h-40 object-cover rounded-lg border border-gray-200 shadow-sm hover:scale-[1.02] transition-transform">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -140,25 +162,19 @@
                 </h3>
                 
                 <div class="space-y-4">
-                    <div class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm flex items-center hover:shadow-md transition-shadow">
-                        <div class="bg-indigo-50 p-3 rounded-lg mr-4 text-indigo-600">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
-                        </div>
-                        <h4 class="font-bold text-gray-900">Python Fundamental for Data Science</h4>
+                    <div class="bg-white p-4 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow flex items-center gap-5">
+                        <img src="{{ asset('images/certifications/Certi-Python.jpg') }}" alt="Python Certification" class="w-24 h-auto rounded shadow-sm border border-gray-200">
+                        <h4 class="font-bold text-gray-900 leading-tight">Python Fundamental for Data Science</h4>
                     </div>
                     
-                    <div class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm flex items-center hover:shadow-md transition-shadow">
-                        <div class="bg-blue-50 p-3 rounded-lg mr-4 text-blue-600">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
-                        </div>
-                        <h4 class="font-bold text-gray-900">Google Cloud Cybersecurity Certificate</h4>
+                    <div class="bg-white p-4 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow flex items-center gap-5">
+                        <img src="{{ asset('images/certifications/Certi-GCC.jpg') }}" alt="Google Cloud Cybersecurity" class="w-24 h-auto rounded shadow-sm border border-gray-200">
+                        <h4 class="font-bold text-gray-900 leading-tight">Google Cloud Cybersecurity Certificate</h4>
                     </div>
                     
-                    <div class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm flex items-center hover:shadow-md transition-shadow">
-                        <div class="bg-sky-50 p-3 rounded-lg mr-4 text-sky-600">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path></svg>
-                        </div>
-                        <h4 class="font-bold text-gray-900">Azure AI Fundamentals (AI-900)</h4>
+                    <div class="bg-white p-4 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow flex items-center gap-5">
+                        <img src="{{ asset('images/certifications/Certi-AI900.jpg') }}" alt="Azure AI-900" class="w-24 h-auto rounded shadow-sm border border-gray-200">
+                        <h4 class="font-bold text-gray-900 leading-tight">Azure AI Fundamentals (AI-900)</h4>
                     </div>
                 </div>
             </div>
