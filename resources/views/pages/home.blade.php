@@ -94,14 +94,36 @@
                         <div class="flex items-center gap-4 mb-2">
                             <img src="{{ asset('images/education/logo-telkom.png') }}" alt="Telkom University" class="w-12 h-12 object-contain bg-[#2d2d2d] rounded-lg p-1 border border-[#3e3e42]">
                             <div>
-                <h4 class="text-lg font-bold text-[#d4d4d4]">Bachelor of Information Technology</h4>
-                <p class="text-[#007acc] font-medium">Telkom University</p>
+                                <h4 class="text-lg font-bold text-[#d4d4d4]">Bachelor of Information Technology</h4>
+                                <p class="text-[#007acc] font-medium">Telkom University</p>
                             </div>
                         </div>
                         <p class="text-[#9d9d9d] text-sm">Sep 2023 – Sep 2027</p>
                         <div class="mt-2 inline-flex items-center px-3 py-1 bg-[#252526] border border-[#3e3e42] rounded-full">
                             <svg class="w-4 h-4 mr-1.5 text-[#007acc]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                             <span class="text-sm font-semibold text-[#007acc]">Current GPA: 3.87 / 4.00</span>
+                        </div>
+                    </div>
+
+                    <!-- High School Education -->
+                    <div class="relative pl-6 border-l-2 border-[#007acc]/40" data-animate data-delay="120">
+                        <div class="absolute w-3 h-3 bg-[#007acc] rounded-full -left-[7px] top-1.5"></div>
+                        <div class="flex items-center gap-4 mb-2">
+                            <div class="w-12 h-12 rounded-lg bg-[#252526] border border-[#3e3e42] flex items-center justify-center text-2xl">
+                                🏫
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-[#d4d4d4]">SMA Negeri 2 Tambun Selatan</h4>
+                                <p class="text-[#007acc] font-medium">Mathematics and Natural Sciences</p>
+                            </div>
+                        </div>
+                        <p class="text-[#9d9d9d] text-sm mb-3">Jul 2020 – April 2023</p>
+                        <div class="bg-[#252526] border border-[#3e3e42] rounded-xl p-4">
+                            <div class="flex items-center gap-2 mb-2">
+                                <span class="text-lg">🤖</span>
+                                <h5 class="font-semibold text-[#d4d4d4]">Robotics Club</h5>
+                            </div>
+                            <p class="text-[#9d9d9d] text-sm leading-relaxed">Actively participated in the Robotics extracurricular, gaining hands-on experience in designing, building, and programming robots. Developed foundational skills in electronics, mechanical systems, and basic programming logic through team-based competitions and projects.</p>
                         </div>
                     </div>
 
@@ -142,6 +164,113 @@
                             <img src="{{ asset('images/experience/lo-2.jpeg') }}" alt="Logistics 2" class="w-full h-32 md:h-40 object-cover rounded-lg border border-[#3e3e42] shadow-sm hover:scale-[1.02] transition-transform">
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Awards & Achievements -->
+<section class="py-16 bg-[#1e1e1e]" data-animate>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12" data-animate>
+            <h3 class="text-3xl md:text-4xl font-bold text-[#d4d4d4] flex items-center justify-center">
+                <svg class="w-9 h-9 mr-3 text-[#007acc]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3h14l-1 7a7 7 0 01-12 0L5 3zM8 21h8M12 17v4M7 6H4a2 2 0 000 4h2M17 6h3a2 2 0 010 4h-2"></path></svg>
+                Awards &amp; Achievements
+            </h3>
+            <p class="mt-4 text-[#9d9d9d]">A selection of academic, competition, and leadership achievements.</p>
+        </div>
+
+        <div class="space-y-12">
+            <!-- High School Awards -->
+            <div data-animate>
+                <div class="flex items-center gap-3 mb-6">
+                    <span class="h-px flex-1 bg-[#3e3e42]"></span>
+                    <h4 class="text-sm font-bold uppercase tracking-[0.25em] text-[#007acc]">High School</h4>
+                    <span class="h-px flex-1 bg-[#3e3e42]"></span>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                    <article class="bg-[#2d2d2d] border border-[#3e3e42] rounded-2xl p-5 hover:border-[#007acc] hover:shadow-lg hover:shadow-black/20 transition-all duration-300" data-animate data-delay="0">
+                        <div class="flex items-start justify-between gap-4 mb-4">
+                            <div class="flex items-center gap-3">
+                                <div class="w-12 h-12 rounded-xl bg-[#252526] border border-[#3e3e42] flex items-center justify-center text-2xl text-[#007acc]">🏆</div>
+                                <div>
+                                    <h5 class="font-bold text-[#d4d4d4] leading-tight">Basic Organizational Leadership Training (LDKO)</h5>
+                                    <p class="text-sm text-[#9d9d9d] mt-1">SMA Negeri 2 Tambun Selatan</p>
+                                </div>
+                            </div>
+                            <span class="px-3 py-1 rounded-full bg-[#252526] border border-[#3e3e42] text-xs font-mono text-[#9d9d9d]">2020</span>
+                        </div>
+                        <span class="inline-flex items-center px-3 py-1 rounded-full bg-[#252526] border border-[#3e3e42] text-xs font-semibold text-[#007acc]">Issuer: SMA Negeri 2 Tambun Selatan</span>
+                    </article>
+
+                    <article class="bg-[#2d2d2d] border border-[#3e3e42] rounded-2xl p-5 hover:border-[#FFD700] hover:shadow-lg hover:shadow-black/20 transition-all duration-300" data-animate data-delay="80">
+                        <div class="flex items-start justify-between gap-4 mb-4">
+                            <div class="flex items-center gap-3">
+                                <div class="w-12 h-12 rounded-xl bg-[#252526] border border-[#FFD700]/50 flex items-center justify-center text-2xl text-[#FFD700]">🥇</div>
+                                <div>
+                                    <h5 class="font-bold text-[#d4d4d4] leading-tight">Gold Medal – Physics Olympiad</h5>
+                                    <p class="text-sm text-[#9d9d9d] mt-1">Olympiad League</p>
+                                </div>
+                            </div>
+                            <span class="px-3 py-1 rounded-full bg-[#252526] border border-[#3e3e42] text-xs font-mono text-[#9d9d9d]">2021</span>
+                        </div>
+                        <span class="inline-flex items-center px-3 py-1 rounded-full bg-[#252526] border border-[#FFD700]/50 text-xs font-semibold text-[#FFD700]">Gold Medal 🥇</span>
+                    </article>
+
+                    <article class="bg-[#2d2d2d] border border-[#3e3e42] rounded-2xl p-5 hover:border-[#FFD700] hover:shadow-lg hover:shadow-black/20 transition-all duration-300" data-animate data-delay="160">
+                        <div class="flex items-start justify-between gap-4 mb-4">
+                            <div class="flex items-center gap-3">
+                                <div class="w-12 h-12 rounded-xl bg-[#252526] border border-[#FFD700]/50 flex items-center justify-center text-2xl text-[#FFD700]">🥇</div>
+                                <div>
+                                    <h5 class="font-bold text-[#d4d4d4] leading-tight">Gold Medal – National Computer Science Olympiad</h5>
+                                    <p class="text-sm text-[#9d9d9d] mt-1">Global Youth Action</p>
+                                </div>
+                            </div>
+                            <span class="px-3 py-1 rounded-full bg-[#252526] border border-[#3e3e42] text-xs font-mono text-[#9d9d9d]">2021</span>
+                        </div>
+                        <span class="inline-flex items-center px-3 py-1 rounded-full bg-[#252526] border border-[#FFD700]/50 text-xs font-semibold text-[#FFD700]">Gold Medal 🥇</span>
+                    </article>
+
+                    <article class="bg-[#2d2d2d] border border-[#3e3e42] rounded-2xl p-5 hover:border-[#C0C0C0] hover:shadow-lg hover:shadow-black/20 transition-all duration-300" data-animate data-delay="240">
+                        <div class="flex items-start justify-between gap-4 mb-4">
+                            <div class="flex items-center gap-3">
+                                <div class="w-12 h-12 rounded-xl bg-[#252526] border border-[#C0C0C0]/50 flex items-center justify-center text-2xl text-[#C0C0C0]">🥈</div>
+                                <div>
+                                    <h5 class="font-bold text-[#d4d4d4] leading-tight">Silver Medal – National Computer Olympiad</h5>
+                                    <p class="text-sm text-[#9d9d9d] mt-1">Indonesian Competition Institute</p>
+                                </div>
+                            </div>
+                            <span class="px-3 py-1 rounded-full bg-[#252526] border border-[#3e3e42] text-xs font-mono text-[#9d9d9d]">2021</span>
+                        </div>
+                        <span class="inline-flex items-center px-3 py-1 rounded-full bg-[#252526] border border-[#C0C0C0]/50 text-xs font-semibold text-[#C0C0C0]">Silver Medal 🥈</span>
+                    </article>
+                </div>
+            </div>
+
+            <!-- University Awards -->
+            <div data-animate data-delay="120">
+                <div class="flex items-center gap-3 mb-6">
+                    <span class="h-px flex-1 bg-[#3e3e42]"></span>
+                    <h4 class="text-sm font-bold uppercase tracking-[0.25em] text-[#007acc]">University</h4>
+                    <span class="h-px flex-1 bg-[#3e3e42]"></span>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                    <article class="bg-[#2d2d2d] border border-[#3e3e42] rounded-2xl p-5 hover:border-[#CD7F32] hover:shadow-lg hover:shadow-black/20 transition-all duration-300" data-animate data-delay="0">
+                        <div class="flex items-start justify-between gap-4 mb-4">
+                            <div class="flex items-center gap-3">
+                                <div class="w-12 h-12 rounded-xl bg-[#252526] border border-[#CD7F32]/50 flex items-center justify-center text-2xl text-[#CD7F32]">🥉</div>
+                                <div>
+                                    <h5 class="font-bold text-[#d4d4d4] leading-tight">3rd Place – Mini PKM-KC</h5>
+                                    <p class="text-sm text-[#9d9d9d] mt-1">Liga Mahasiswa Telkom University Jakarta</p>
+                                </div>
+                            </div>
+                            <span class="px-3 py-1 rounded-full bg-[#252526] border border-[#3e3e42] text-xs font-mono text-[#9d9d9d]">2026</span>
+                        </div>
+                        <span class="inline-flex items-center px-3 py-1 rounded-full bg-[#252526] border border-[#CD7F32]/50 text-xs font-semibold text-[#CD7F32]">Bronze Medal 🥉</span>
+                    </article>
                 </div>
             </div>
         </div>
