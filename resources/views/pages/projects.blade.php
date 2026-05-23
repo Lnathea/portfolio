@@ -3,9 +3,9 @@
 @section('title', 'Projects - Afriza')
 
 @section('content')
-<section class="py-16 bg-[#1e1e1e] min-h-screen">
+<section class="py-16 bg-[#1e1e1e] min-h-screen" data-animate>
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-16">
+        <div class="text-center mb-16" data-animate>
             <h2 class="text-4xl font-bold text-[#d4d4d4]">My Projects</h2>
             <p class="mt-4 text-lg text-[#9d9d9d]">A collection of academic and personal work showcasing my skills</p>
         </div>
@@ -13,7 +13,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
             <!-- Project 1 -->
-            <div class="bg-[#2d2d2d] rounded-2xl shadow-sm border border-[#3e3e42] overflow-hidden hover:shadow-xl transition-all duration-300 group flex flex-col">
+            <div id="project-rtku" class="project-card relative bg-[#2d2d2d] rounded-2xl shadow-sm border border-[#3e3e42] overflow-hidden hover:shadow-xl transition-all duration-300 group flex flex-col" data-animate data-delay="0">
                 <div class="h-48 bg-[#252526] w-full flex items-center justify-center text-[#9d9d9d]">
                     <span class="text-sm">No Image Available</span>
                 </div>
@@ -32,10 +32,16 @@
                     <span class="px-2 py-1 bg-[#252526] text-[#007acc] text-xs font-semibold rounded-md border border-[#3e3e42]">Figma</span>
                     <span class="px-2 py-1 bg-[#252526] text-[#007acc] text-xs font-semibold rounded-md border border-[#3e3e42]">UCD Methodology</span>
                 </div>
+                <div class="project-overlay absolute inset-0 bg-black/75 z-10 flex items-end justify-center p-6">
+                    <div class="flex gap-3">
+                        <a href="#project-rtku" class="px-4 py-2 bg-[#007acc] text-white rounded-lg text-sm font-semibold hover:bg-[#006bb3] transition-colors">View Details</a>
+                        <a href="https://github.com/Lnathea" target="_blank" class="px-4 py-2 bg-transparent border border-[#007acc] text-[#007acc] rounded-lg text-sm font-semibold hover:bg-[#007acc] hover:text-white transition-colors">GitHub</a>
+                    </div>
+                </div>
             </div>
 
             <!-- Project 2 -->
-            <div class="bg-[#2d2d2d] rounded-2xl shadow-sm border border-[#3e3e42] overflow-hidden hover:shadow-xl transition-all duration-300 group flex flex-col">
+            <div id="project-smart-fish-feeder" class="project-card relative bg-[#2d2d2d] rounded-2xl shadow-sm border border-[#3e3e42] overflow-hidden hover:shadow-xl transition-all duration-300 group flex flex-col" data-animate data-delay="90">
                 <div class="h-48 grid grid-cols-2 w-full overflow-hidden">
                     <img src="{{ asset('images/projects/fish-feeder1.jpeg') }}" alt="Smart Fish Feeder 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 border-r border-[#3e3e42]">
                     <img src="{{ asset('images/projects/fish-feeder2.jpeg') }}" alt="Smart Fish Feeder 2" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
@@ -56,10 +62,16 @@
                     <span class="px-2 py-1 bg-[#252526] text-[#007acc] text-xs font-semibold rounded-md border border-[#3e3e42]">Blynk</span>
                     <span class="px-2 py-1 bg-[#252526] text-[#007acc] text-xs font-semibold rounded-md border border-[#3e3e42]">IoT</span>
                 </div>
+                <div class="project-overlay absolute inset-0 bg-black/75 z-10 flex items-end justify-center p-6">
+                    <div class="flex gap-3">
+                        <a href="#project-smart-fish-feeder" class="px-4 py-2 bg-[#007acc] text-white rounded-lg text-sm font-semibold hover:bg-[#006bb3] transition-colors">View Details</a>
+                        <a href="https://github.com/Lnathea" target="_blank" class="px-4 py-2 bg-transparent border border-[#007acc] text-[#007acc] rounded-lg text-sm font-semibold hover:bg-[#007acc] hover:text-white transition-colors">GitHub</a>
+                    </div>
+                </div>
             </div>
 
             <!-- Project 3 -->
-            <div class="bg-[#2d2d2d] rounded-2xl shadow-sm border border-[#3e3e42] overflow-hidden hover:shadow-xl transition-all duration-300 group flex flex-col">
+            <div id="project-heart-disease-risk" class="project-card relative bg-[#2d2d2d] rounded-2xl shadow-sm border border-[#3e3e42] overflow-hidden hover:shadow-xl transition-all duration-300 group flex flex-col" data-animate data-delay="180">
                 <div class="h-48 bg-[#252526] w-full flex items-center justify-center text-[#9d9d9d]">
                     <span class="text-sm">No Image Available</span>
                 </div>
@@ -78,10 +90,16 @@
                     <span class="px-2 py-1 bg-[#252526] text-[#007acc] text-xs font-semibold rounded-md border border-[#3e3e42]">Scikit-learn</span>
                     <span class="px-2 py-1 bg-[#252526] text-[#007acc] text-xs font-semibold rounded-md border border-[#3e3e42]">Pandas</span>
                 </div>
+                <div class="project-overlay absolute inset-0 bg-black/75 z-10 flex items-end justify-center p-6">
+                    <div class="flex gap-3">
+                        <a href="#project-heart-disease-risk" class="px-4 py-2 bg-[#007acc] text-white rounded-lg text-sm font-semibold hover:bg-[#006bb3] transition-colors">View Details</a>
+                        <a href="https://github.com/Lnathea" target="_blank" class="px-4 py-2 bg-transparent border border-[#007acc] text-[#007acc] rounded-lg text-sm font-semibold hover:bg-[#007acc] hover:text-white transition-colors">GitHub</a>
+                    </div>
+                </div>
             </div>
 
             <!-- Project 4 -->
-            <div class="bg-[#2d2d2d] rounded-2xl shadow-sm border border-[#3e3e42] overflow-hidden hover:shadow-xl transition-all duration-300 group flex flex-col">
+            <div id="project-ai-health-app" class="project-card relative bg-[#2d2d2d] rounded-2xl shadow-sm border border-[#3e3e42] overflow-hidden hover:shadow-xl transition-all duration-300 group flex flex-col" data-animate data-delay="270">
                 <div class="h-48 grid grid-cols-2 w-full overflow-hidden">
                     <img src="{{ asset('images/projects/HealthApp1.jpeg') }}" alt="AI Health App 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 border-r border-[#3e3e42]">
                     <img src="{{ asset('images/projects/HealthApp2.jpeg') }}" alt="AI Health App 2" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
@@ -100,10 +118,16 @@
                     <span class="px-2 py-1 bg-[#252526] text-[#007acc] text-xs font-semibold rounded-md border border-[#3e3e42]">QA Testing</span>
                     <span class="px-2 py-1 bg-[#252526] text-[#007acc] text-xs font-semibold rounded-md border border-[#3e3e42]">System Integration</span>
                 </div>
+                <div class="project-overlay absolute inset-0 bg-black/75 z-10 flex items-end justify-center p-6">
+                    <div class="flex gap-3">
+                        <a href="#project-ai-health-app" class="px-4 py-2 bg-[#007acc] text-white rounded-lg text-sm font-semibold hover:bg-[#006bb3] transition-colors">View Details</a>
+                        <a href="https://github.com/Lnathea" target="_blank" class="px-4 py-2 bg-transparent border border-[#007acc] text-[#007acc] rounded-lg text-sm font-semibold hover:bg-[#007acc] hover:text-white transition-colors">GitHub</a>
+                    </div>
+                </div>
             </div>
 
             <!-- Project 5 -->
-            <div class="bg-[#2d2d2d] rounded-2xl shadow-sm border border-[#3e3e42] overflow-hidden hover:shadow-xl transition-all duration-300 group flex flex-col">
+            <div id="project-linux-simulation" class="project-card relative bg-[#2d2d2d] rounded-2xl shadow-sm border border-[#3e3e42] overflow-hidden hover:shadow-xl transition-all duration-300 group flex flex-col" data-animate data-delay="360">
                 <div class="h-48 bg-[#252526] w-full flex items-center justify-center text-[#9d9d9d]">
                     <span class="text-sm">No Image Available</span>
                 </div>
@@ -121,6 +145,12 @@
                     <span class="px-2 py-1 bg-[#252526] text-[#d4d4d4] text-xs font-semibold rounded-md border border-[#3e3e42]">Linux</span>
                     <span class="px-2 py-1 bg-[#252526] text-[#007acc] text-xs font-semibold rounded-md border border-[#3e3e42]">Ubuntu</span>
                     <span class="px-2 py-1 bg-[#252526] text-[#d4d4d4] text-xs font-semibold rounded-md border border-[#3e3e42]">chmod</span>
+                </div>
+                <div class="project-overlay absolute inset-0 bg-black/75 z-10 flex items-end justify-center p-6">
+                    <div class="flex gap-3">
+                        <a href="#project-linux-simulation" class="px-4 py-2 bg-[#007acc] text-white rounded-lg text-sm font-semibold hover:bg-[#006bb3] transition-colors">View Details</a>
+                        <a href="https://github.com/Lnathea" target="_blank" class="px-4 py-2 bg-transparent border border-[#007acc] text-[#007acc] rounded-lg text-sm font-semibold hover:bg-[#007acc] hover:text-white transition-colors">GitHub</a>
+                    </div>
                 </div>
             </div>
 

@@ -1,3 +1,11 @@
+@php
+    $navLinks = [
+        ['label' => 'Home', 'route' => 'home'],
+        ['label' => 'Projects', 'route' => 'projects'],
+        ['label' => 'Contact', 'route' => 'contact'],
+    ];
+@endphp
+
 <header class="sticky top-0 z-50 bg-[#252526]/95 backdrop-blur-md shadow-lg shadow-black/20 border-b-2 border-[#007acc]">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center h-16">
@@ -5,9 +13,14 @@
                 <a href="{{ route('home') }}" class="text-2xl font-bold font-mono text-[#d4d4d4] tracking-tight">Afriza<span class="text-[#007acc]">.</span></a>
             </div>
             <nav class="hidden md:flex space-x-8">
-                <a href="{{ route('home') }}" class="text-[#9d9d9d] hover:text-[#007acc] font-medium transition-colors">Home</a>
-                <a href="{{ route('projects') }}" class="text-[#9d9d9d] hover:text-[#007acc] font-medium transition-colors">Projects</a>
-                <a href="{{ route('contact') }}" class="text-[#9d9d9d] hover:text-[#007acc] font-medium transition-colors">Contact</a>
+                @foreach ($navLinks as $link)
+                    @php($isActive = request()->routeIs($link['route']))
+                    <a
+                        href="{{ route($link['route']) }}"
+                        class="relative py-1 font-medium transition-colors duration-300 after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-full after:bg-[#007acc] after:origin-left after:transition-transform after:duration-300 {{ $isActive ? 'text-[#007acc] after:scale-x-100' : 'text-[#9d9d9d] after:scale-x-0 hover:text-[#007acc] hover:after:scale-x-100' }}"
+                        aria-current="{{ $isActive ? 'page' : 'false' }}"
+                    >{{ $link['label'] }}</a>
+                @endforeach
             </nav>
             <div class="md:hidden flex items-center">
                 <button class="text-[#9d9d9d] hover:text-[#007acc] transition-colors">

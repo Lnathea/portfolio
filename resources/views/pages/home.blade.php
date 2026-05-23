@@ -2,16 +2,16 @@
 @section('title', 'Home - Afriza')
 @section('content')
 <!-- Hero Section -->
-<section class="py-20 lg:py-32 overflow-hidden relative">
-    <div class="absolute inset-0 bg-[#1e1e1e] -z-10"></div>
+<section class="py-20 lg:py-32 overflow-hidden relative" data-animate>
+    <div class="absolute inset-0 bg-[#1e1e1e] hero-dot-grid -z-10"></div>
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div class="flex flex-col-reverse lg:flex-row items-center justify-between gap-12">
             <div class="text-center lg:text-left max-w-2xl">
                 <h1 class="text-5xl md:text-6xl font-extrabold tracking-tight text-[#d4d4d4] mb-6">
                     Hi, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#007acc] to-[#007acc]">Muhammad Afriza Hidayat</span>
                 </h1>
-                <h2 class="text-2xl text-[#d4d4d4] font-medium mb-6">
-                    Information Technology Student & Developer
+                <h2 class="text-2xl text-[#d4d4d4] font-medium mb-6 min-h-[2.5rem] font-mono" aria-label="Current role">
+                    <span data-typing>Information Technology Student</span><span class="typing-cursor ml-1">|</span>
                 </h2>
                 <p class="text-xl text-[#9d9d9d] mb-10 leading-relaxed italic font-mono">
                     // "Mahasiswa IT Telkom University yang passionate di Web Development, AI, dan IoT"
@@ -19,6 +19,29 @@
                 <div class="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
                     <a href="{{ route('projects') }}" class="px-8 py-3 bg-[#007acc] text-white rounded-full font-medium shadow-lg shadow-black/30 hover:bg-[#006bb3] hover:-translate-y-1 transition-all duration-300">View My Work</a>
                     <a href="{{ route('contact') }}" class="px-8 py-3 bg-transparent text-[#007acc] border border-[#007acc] rounded-full font-medium shadow-sm hover:bg-[#007acc] hover:text-white transition-all duration-300">Contact Me</a>
+                </div>
+
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-10">
+                    <div class="stat-card bg-[#2d2d2d]/80 border border-[#3e3e42] rounded-2xl p-4 backdrop-blur-sm" data-animate data-delay="0">
+                        <div class="text-xl mb-2">💻</div>
+                        <div class="text-3xl font-extrabold text-[#007acc]" data-stat-counter data-stat-target="5" data-stat-suffix="+">0+</div>
+                        <p class="text-xs text-[#9d9d9d] mt-1">Projects Completed</p>
+                    </div>
+                    <div class="stat-card bg-[#2d2d2d]/80 border border-[#3e3e42] rounded-2xl p-4 backdrop-blur-sm" data-animate data-delay="90">
+                        <div class="text-xl mb-2">🎓</div>
+                        <div class="text-3xl font-extrabold text-[#007acc]" data-stat-counter data-stat-target="3.87" data-stat-decimals="2">0.00</div>
+                        <p class="text-xs text-[#9d9d9d] mt-1">Current GPA</p>
+                    </div>
+                    <div class="stat-card bg-[#2d2d2d]/80 border border-[#3e3e42] rounded-2xl p-4 backdrop-blur-sm" data-animate data-delay="180">
+                        <div class="text-xl mb-2">🏅</div>
+                        <div class="text-3xl font-extrabold text-[#007acc]" data-stat-counter data-stat-target="3">0</div>
+                        <p class="text-xs text-[#9d9d9d] mt-1">Certifications</p>
+                    </div>
+                    <div class="stat-card bg-[#2d2d2d]/80 border border-[#3e3e42] rounded-2xl p-4 backdrop-blur-sm" data-animate data-delay="270">
+                        <div class="text-xl mb-2">⚡</div>
+                        <div class="text-3xl font-extrabold text-[#007acc]" data-stat-counter data-stat-target="2">0</div>
+                        <p class="text-xs text-[#9d9d9d] mt-1">Years Experience</p>
+                    </div>
                 </div>
             </div>
             <div class="relative lg:w-96 flex-shrink-0 mb-8 lg:mb-0">
@@ -33,7 +56,7 @@
 </section>
 
 <!-- Summary & Education -->
-<section class="py-16 bg-[#2d2d2d]">
+<section class="py-16 bg-[#2d2d2d]" data-animate>
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
@@ -71,8 +94,8 @@
                         <div class="flex items-center gap-4 mb-2">
                             <img src="{{ asset('images/education/logo-telkom.png') }}" alt="Telkom University" class="w-12 h-12 object-contain bg-[#2d2d2d] rounded-lg p-1 border border-[#3e3e42]">
                             <div>
-                                <h4 class="text-lg font-bold text-[#d4d4d4]">Bachelor of Information Technology</h4>
-                                <p class="text-[#007acc] font-medium">Telkom University</p>
+                <h4 class="text-lg font-bold text-[#d4d4d4]">Bachelor of Information Technology</h4>
+                <p class="text-[#007acc] font-medium">Telkom University</p>
                             </div>
                         </div>
                         <p class="text-[#9d9d9d] text-sm">Sep 2023 – Sep 2027</p>
@@ -126,51 +149,71 @@
 </section>
 
 <!-- Technical Skills & Certifications -->
-<section class="py-16 bg-[#1e1e1e]">
+<section class="py-16 bg-[#1e1e1e]" data-animate>
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
 
             <!-- Skills -->
             <div>
                 <h3 class="text-3xl font-bold text-[#d4d4d4] mb-8">Technical Skills</h3>
-                <div class="space-y-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-[#9d9d9d] uppercase tracking-wider mb-3">Programming</h4>
-                        <div class="flex flex-wrap gap-2">
-                            <span class="px-3 py-1.5 bg-[#2d2d2d] border border-[#3e3e42] rounded-lg text-sm font-medium text-[#d4d4d4] shadow-sm">Go</span>
-                            <span class="px-3 py-1.5 bg-[#2d2d2d] border border-[#3e3e42] rounded-lg text-sm font-medium text-[#d4d4d4] shadow-sm">Python</span>
-                            <span class="px-3 py-1.5 bg-[#2d2d2d] border border-[#3e3e42] rounded-lg text-sm font-medium text-[#d4d4d4] shadow-sm">C/C++</span>
-                            <span class="px-3 py-1.5 bg-[#2d2d2d] border border-[#3e3e42] rounded-lg text-sm font-medium text-[#d4d4d4] shadow-sm">Java</span>
+                <div class="space-y-5">
+                    <div class="skill-bar-card bg-[#2d2d2d] border border-[#3e3e42] rounded-2xl p-5" data-animate data-delay="0">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="font-semibold text-[#d4d4d4]">Laravel</span>
+                            <span class="text-sm font-mono text-[#007acc]">80%</span>
+                        </div>
+                        <div class="h-3 bg-[#3e3e42] rounded-full overflow-hidden">
+                            <div class="skill-progress-bar h-full bg-[#007acc] rounded-full" data-skill-bar data-skill-value="80"></div>
                         </div>
                     </div>
 
-                    <div>
-                        <h4 class="text-sm font-semibold text-[#9d9d9d] uppercase tracking-wider mb-3">Web Development & DB</h4>
-                        <div class="flex flex-wrap gap-2">
-                            <span class="px-3 py-1.5 bg-[#2d2d2d] border border-[#3e3e42] rounded-lg text-sm font-medium text-[#d4d4d4] shadow-sm">HTML/CSS</span>
-                            <span class="px-3 py-1.5 bg-[#2d2d2d] border border-[#3e3e42] rounded-lg text-sm font-medium text-[#d4d4d4] shadow-sm">Laravel</span>
-                            <span class="px-3 py-1.5 bg-[#2d2d2d] border border-[#3e3e42] rounded-lg text-sm font-medium text-[#d4d4d4] shadow-sm">Flutter</span>
-                            <span class="px-3 py-1.5 bg-[#2d2d2d] border border-[#3e3e42] rounded-lg text-sm font-medium text-[#d4d4d4] shadow-sm">MySQL</span>
-                            <span class="px-3 py-1.5 bg-[#2d2d2d] border border-[#3e3e42] rounded-lg text-sm font-medium text-[#d4d4d4] shadow-sm">SQL</span>
+                    <div class="skill-bar-card bg-[#2d2d2d] border border-[#3e3e42] rounded-2xl p-5" data-animate data-delay="80">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="font-semibold text-[#d4d4d4]">Python</span>
+                            <span class="text-sm font-mono text-[#007acc]">75%</span>
+                        </div>
+                        <div class="h-3 bg-[#3e3e42] rounded-full overflow-hidden">
+                            <div class="skill-progress-bar h-full bg-[#007acc] rounded-full" data-skill-bar data-skill-value="75"></div>
                         </div>
                     </div>
 
-                    <div>
-                        <h4 class="text-sm font-semibold text-[#9d9d9d] uppercase tracking-wider mb-3">Data, AI & Tools</h4>
-                        <div class="flex flex-wrap gap-2">
-                            <span class="px-3 py-1.5 bg-[#2d2d2d] border border-[#3e3e42] rounded-lg text-sm font-medium text-[#d4d4d4] shadow-sm">Pandas</span>
-                            <span class="px-3 py-1.5 bg-[#2d2d2d] border border-[#3e3e42] rounded-lg text-sm font-medium text-[#d4d4d4] shadow-sm">Numpy</span>
-                            <span class="px-3 py-1.5 bg-[#2d2d2d] border border-[#3e3e42] rounded-lg text-sm font-medium text-[#d4d4d4] shadow-sm">Scikit-learn</span>
-                            <span class="px-3 py-1.5 bg-[#2d2d2d] border border-[#3e3e42] rounded-lg text-sm font-medium text-[#d4d4d4] shadow-sm">Git & GitHub</span>
-                            <span class="px-3 py-1.5 bg-[#2d2d2d] border border-[#3e3e42] rounded-lg text-sm font-medium text-[#d4d4d4] shadow-sm">VS Code</span>
+                    <div class="skill-bar-card bg-[#2d2d2d] border border-[#3e3e42] rounded-2xl p-5" data-animate data-delay="160">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="font-semibold text-[#d4d4d4]">Go</span>
+                            <span class="text-sm font-mono text-[#007acc]">65%</span>
+                        </div>
+                        <div class="h-3 bg-[#3e3e42] rounded-full overflow-hidden">
+                            <div class="skill-progress-bar h-full bg-[#007acc] rounded-full" data-skill-bar data-skill-value="65"></div>
                         </div>
                     </div>
 
-                    <div>
-                        <h4 class="text-sm font-semibold text-[#9d9d9d] uppercase tracking-wider mb-3">Networking</h4>
-                        <div class="flex flex-wrap gap-2">
-                            <span class="px-3 py-1.5 bg-[#2d2d2d] border border-[#3e3e42] rounded-lg text-sm font-medium text-[#d4d4d4] shadow-sm">Cisco Packet Tracer</span>
-                            <span class="px-3 py-1.5 bg-[#2d2d2d] border border-[#3e3e42] rounded-lg text-sm font-medium text-[#d4d4d4] shadow-sm">TCP/IP</span>
+                    <div class="skill-bar-card bg-[#2d2d2d] border border-[#3e3e42] rounded-2xl p-5" data-animate data-delay="240">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="font-semibold text-[#d4d4d4]">MySQL</span>
+                            <span class="text-sm font-mono text-[#007acc]">80%</span>
+                        </div>
+                        <div class="h-3 bg-[#3e3e42] rounded-full overflow-hidden">
+                            <div class="skill-progress-bar h-full bg-[#007acc] rounded-full" data-skill-bar data-skill-value="80"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-bar-card bg-[#2d2d2d] border border-[#3e3e42] rounded-2xl p-5" data-animate data-delay="320">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="font-semibold text-[#d4d4d4]">HTML/CSS</span>
+                            <span class="text-sm font-mono text-[#007acc]">85%</span>
+                        </div>
+                        <div class="h-3 bg-[#3e3e42] rounded-full overflow-hidden">
+                            <div class="skill-progress-bar h-full bg-[#007acc] rounded-full" data-skill-bar data-skill-value="85"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-bar-card bg-[#2d2d2d] border border-[#3e3e42] rounded-2xl p-5" data-animate data-delay="400">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="font-semibold text-[#d4d4d4]">Figma</span>
+                            <span class="text-sm font-mono text-[#007acc]">70%</span>
+                        </div>
+                        <div class="h-3 bg-[#3e3e42] rounded-full overflow-hidden">
+                            <div class="skill-progress-bar h-full bg-[#007acc] rounded-full" data-skill-bar data-skill-value="70"></div>
                         </div>
                     </div>
                 </div>
@@ -184,17 +227,17 @@
                 </h3>
 
                 <div class="space-y-4">
-                    <div class="bg-[#2d2d2d] p-4 rounded-xl border border-[#3e3e42] shadow-sm hover:shadow-md transition-shadow flex items-center gap-5">
+                    <div class="bg-[#2d2d2d] p-4 rounded-xl border border-[#3e3e42] shadow-sm hover:shadow-md transition-shadow flex items-center gap-5" data-animate>
                         <img src="{{ asset('images/certifications/Certi-Python.jpg') }}" alt="Python Certification" class="w-24 h-auto rounded shadow-sm border border-[#3e3e42]">
                         <h4 class="font-bold text-[#d4d4d4] leading-tight">Python Fundamental for Data Science</h4>
                     </div>
 
-                    <div class="bg-[#2d2d2d] p-4 rounded-xl border border-[#3e3e42] shadow-sm hover:shadow-md transition-shadow flex items-center gap-5">
+                    <div class="bg-[#2d2d2d] p-4 rounded-xl border border-[#3e3e42] shadow-sm hover:shadow-md transition-shadow flex items-center gap-5" data-animate>
                         <img src="{{ asset('images/certifications/Certi-GCC.jpg') }}" alt="Google Cloud Cybersecurity" class="w-24 h-auto rounded shadow-sm border border-[#3e3e42]">
                         <h4 class="font-bold text-[#d4d4d4] leading-tight">Google Cloud Cybersecurity Certificate</h4>
                     </div>
 
-                    <div class="bg-[#2d2d2d] p-4 rounded-xl border border-[#3e3e42] shadow-sm hover:shadow-md transition-shadow flex items-center gap-5">
+                    <div class="bg-[#2d2d2d] p-4 rounded-xl border border-[#3e3e42] shadow-sm hover:shadow-md transition-shadow flex items-center gap-5" data-animate>
                         <img src="{{ asset('images/certifications/Certi-AI900.jpg') }}" alt="Azure AI-900" class="w-24 h-auto rounded shadow-sm border border-[#3e3e42]">
                         <h4 class="font-bold text-[#d4d4d4] leading-tight">Azure AI Fundamentals (AI-900)</h4>
                     </div>
@@ -206,7 +249,7 @@
 </section>
 
 <!-- Organizations & Languages -->
-<section class="py-16 bg-[#1e1e1e]">
+<section class="py-16 bg-[#1e1e1e]" data-animate>
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
 
@@ -219,29 +262,29 @@
 
                 <div class="space-y-4">
                     <!-- HMIT -->
-                    <div class="bg-[#2d2d2d] p-5 rounded-2xl border border-[#3e3e42] hover:shadow-lg hover:border-[#007acc] transition-all duration-300 group">
+                    <div class="bg-[#2d2d2d] p-5 rounded-2xl border border-[#3e3e42] hover:shadow-lg hover:border-[#007acc] transition-all duration-300 group" data-animate>
                         <div class="flex items-start gap-4">
                             <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-[#007acc] to-[#007acc] flex items-center justify-center flex-shrink-0 shadow-md group-hover:scale-105 transition-transform duration-300">
-                                <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
                             </div>
                             <div>
-                                <h4 class="text-lg font-bold text-[#d4d4d4] mb-1">Himpunan Mahasiswa Teknologi Informasi (HMIT)</h4>
-                                <p class="text-[#007acc] font-medium text-sm">Telkom University Jakarta</p>
-                                <span class="inline-block mt-2 px-3 py-1 bg-[#252526] text-[#007acc] text-xs font-semibold rounded-full border border-[#3e3e42]">Active Member</span>
+                <h4 class="text-lg font-bold text-[#d4d4d4] mb-1">Himpunan Mahasiswa Teknologi Informasi (HMIT)</h4>
+                <p class="text-[#007acc] font-medium text-sm">Telkom University Jakarta</p>
+                <span class="inline-block mt-2 px-3 py-1 bg-[#252526] text-[#007acc] text-xs font-semibold rounded-full border border-[#3e3e42]">Active Member</span>
                             </div>
                         </div>
                     </div>
 
                     <!-- GDG on Campus -->
-                    <div class="bg-[#2d2d2d] p-5 rounded-2xl border border-[#3e3e42] hover:shadow-lg hover:border-[#007acc] transition-all duration-300 group">
+                    <div class="bg-[#2d2d2d] p-5 rounded-2xl border border-[#3e3e42] hover:shadow-lg hover:border-[#007acc] transition-all duration-300 group" data-animate>
                         <div class="flex items-start gap-4">
                             <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-[#007acc] via-[#007acc] to-[#007acc] flex items-center justify-center flex-shrink-0 shadow-md group-hover:scale-105 transition-transform duration-300">
-                                <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
                             </div>
                             <div>
-                                <h4 class="text-lg font-bold text-[#d4d4d4] mb-1">Google Developer Groups on Campus</h4>
-                                <p class="text-[#007acc] font-medium text-sm">Telkom University Jakarta</p>
-                                <span class="inline-block mt-2 px-3 py-1 bg-[#252526] text-[#007acc] text-xs font-semibold rounded-full border border-[#3e3e42]">Active Member</span>
+                <h4 class="text-lg font-bold text-[#d4d4d4] mb-1">Google Developer Groups on Campus</h4>
+                <p class="text-[#007acc] font-medium text-sm">Telkom University Jakarta</p>
+                <span class="inline-block mt-2 px-3 py-1 bg-[#252526] text-[#007acc] text-xs font-semibold rounded-full border border-[#3e3e42]">Active Member</span>
                             </div>
                         </div>
                     </div>
@@ -257,11 +300,11 @@
 
                 <div class="space-y-6">
                     <!-- Indonesian -->
-                    <div class="bg-[#2d2d2d] p-5 rounded-2xl border border-[#3e3e42]">
+                    <div class="bg-[#2d2d2d] p-5 rounded-2xl border border-[#3e3e42]" data-animate>
                         <div class="flex justify-between items-center mb-3">
                             <div class="flex items-center gap-3">
-                                <span class="text-2xl">🇮🇩</span>
-                                <h4 class="text-lg font-bold text-[#d4d4d4]">Indonesian</h4>
+                <span class="text-2xl">🇮🇩</span>
+                <h4 class="text-lg font-bold text-[#d4d4d4]">Indonesian</h4>
                             </div>
                             <span class="px-3 py-1 bg-[#007acc] text-white text-xs font-bold rounded-full shadow-sm">Native</span>
                         </div>
@@ -272,11 +315,11 @@
                     </div>
 
                     <!-- English -->
-                    <div class="bg-[#2d2d2d] p-5 rounded-2xl border border-[#3e3e42]">
+                    <div class="bg-[#2d2d2d] p-5 rounded-2xl border border-[#3e3e42]" data-animate>
                         <div class="flex justify-between items-center mb-3">
                             <div class="flex items-center gap-3">
-                                <span class="text-2xl">🇬🇧</span>
-                                <h4 class="text-lg font-bold text-[#d4d4d4]">English</h4>
+                <span class="text-2xl">🇬🇧</span>
+                <h4 class="text-lg font-bold text-[#d4d4d4]">English</h4>
                             </div>
                             <span class="px-3 py-1 bg-[#007acc] text-white text-xs font-bold rounded-full shadow-sm">Professional Working Proficiency</span>
                         </div>
