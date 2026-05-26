@@ -129,10 +129,14 @@
 
             <!-- Project 5: Linux Simulation -->
             <div class="project-card bg-[#2d2d2d] rounded-2xl border border-[#3e3e42] overflow-hidden hover:border-[#007acc] hover:shadow-xl hover:shadow-[#007acc]/10 transition-all duration-300 group flex flex-col">
-                <div class="h-48 bg-[#252526] w-full flex items-center justify-center">
-                    <div class="flex flex-col items-center gap-3 text-[#9d9d9d]">
-                        <span class="text-5xl">🖥️</span>
-                        <span class="text-sm font-mono text-[#007acc]">$ chmod 644 project</span>
+                <div class="grid grid-cols-2 h-48">
+                    <div class="overflow-hidden cursor-zoom-in lightbox-trigger" data-src="{{ asset('images/projects/Linux1.jpg') }}">
+                        <img src="{{ asset('images/projects/Linux1.jpg') }}" alt="Linux File Permission 1"
+                             class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" />
+                    </div>
+                    <div class="overflow-hidden cursor-zoom-in lightbox-trigger border-l border-[#3e3e42]" data-src="{{ asset('images/projects/Linux2.jpg') }}">
+                        <img src="{{ asset('images/projects/Linux2.jpg') }}" alt="Linux File Permission 2"
+                             class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" />
                     </div>
                 </div>
                 <div class="p-6 flex-grow">
