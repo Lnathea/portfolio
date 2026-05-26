@@ -19,16 +19,16 @@
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
-                    <article class="bg-[#2d2d2d] border border-[#3e3e42] rounded-3xl overflow-hidden hover:border-[#007acc] hover:shadow-lg transition-all duration-300">
-                        <button type="button" class="block overflow-hidden" data-lightbox="award-ldko" data-src="{{ asset('images/awards/LDKO.jpg') }}">
-                            <img src="{{ asset('images/awards/LDKO.jpg') }}" alt="LDKO Basic Organizational Leadership Training" class="h-44 w-full object-cover transition-transform duration-500 hover:scale-105" />
+                    <article class="bg-[#2d2d2d] border border-[#3e3e42] rounded-3xl overflow-hidden hover:shadow-lg transition-all duration-300">
+                        <button type="button" class="block w-full bg-[#1a1a1a] p-4" data-lightbox="award-ldko" data-src="{{ asset('images/awards/LDKO.jpg') }}">
+                            <img src="{{ asset('images/awards/LDKO.jpg') }}" alt="LDKO Basic Organizational Leadership Training" class="h-64 w-full object-contain mx-auto transition-transform duration-500 hover:scale-105" />
                         </button>
                         <div class="p-6">
                             <div class="flex items-start justify-between gap-4 mb-4">
-                                <div class="flex items-center gap-3">
+                                <div class="flex items-start gap-3">
                                     <div class="w-14 h-14 rounded-2xl bg-[#252526] border border-[#3e3e42] flex items-center justify-center text-3xl text-[#007acc]">🏆</div>
                                     <div>
-                                        <h3 class="font-bold text-[#d4d4d4] leading-tight">LDKO Basic Organizational Leadership Training</h3>
+                                        <h3 class="text-xl font-bold text-[#d4d4d4]">LDKO Basic Organizational Leadership Training</h3>
                                         <p class="text-sm text-[#9d9d9d] mt-1">SMA Negeri 2 Tambun Selatan</p>
                                     </div>
                                 </div>
@@ -38,16 +38,16 @@
                         </div>
                     </article>
 
-                    <article class="bg-[#2d2d2d] border border-[#3e3e42] rounded-3xl overflow-hidden hover:border-[#FFD700] hover:shadow-lg transition-all duration-300">
-                        <button type="button" class="block overflow-hidden" data-lightbox="award-physics" data-src="{{ asset('images/awards/PhysicsOlympiad.jpg') }}">
-                            <img src="{{ asset('images/awards/PhysicsOlympiad.jpg') }}" alt="Gold Medal – Physics Olympiad" class="h-44 w-full object-cover transition-transform duration-500 hover:scale-105" />
+                    <article class="bg-[#2d2d2d] border border-[#FFD700] rounded-3xl overflow-hidden hover:shadow-lg transition-all duration-300">
+                        <button type="button" class="block w-full bg-[#1a1a1a] p-4" data-lightbox="award-physics" data-src="{{ asset('images/awards/PhysicsOlympiad.jpg') }}">
+                            <img src="{{ asset('images/awards/PhysicsOlympiad.jpg') }}" alt="Gold Medal – Physics Olympiad" class="h-64 w-full object-contain mx-auto transition-transform duration-500 hover:scale-105" />
                         </button>
                         <div class="p-6">
                             <div class="flex items-start justify-between gap-4 mb-4">
-                                <div class="flex items-center gap-3">
+                                <div class="flex items-start gap-3">
                                     <div class="w-14 h-14 rounded-2xl bg-[#252526] border border-[#FFD700]/50 flex items-center justify-center text-3xl text-[#FFD700]">🥇</div>
                                     <div>
-                                        <h3 class="font-bold text-[#d4d4d4] leading-tight">Gold Medal – Physics Olympiad</h3>
+                                        <h3 class="text-xl font-bold text-[#d4d4d4]">Gold Medal – Physics Olympiad</h3>
                                         <p class="text-sm text-[#9d9d9d] mt-1">Olympiad League</p>
                                     </div>
                                 </div>
@@ -57,16 +57,16 @@
                         </div>
                     </article>
 
-                    <article class="bg-[#2d2d2d] border border-[#3e3e42] rounded-3xl overflow-hidden hover:border-[#FFD700] hover:shadow-lg transition-all duration-300">
-                        <button type="button" class="block overflow-hidden" data-lightbox="award-compsci" data-src="{{ asset('images/awards/NationalComputerScienceOlympiad.jpg') }}">
-                            <img src="{{ asset('images/awards/NationalComputerScienceOlympiad.jpg') }}" alt="Gold Medal – National Computer Science Olympiad" class="h-44 w-full object-cover transition-transform duration-500 hover:scale-105" />
+                    <article class="bg-[#2d2d2d] border border-[#FFD700] rounded-3xl overflow-hidden hover:shadow-lg transition-all duration-300">
+                        <button type="button" class="block w-full bg-[#1a1a1a] p-4" data-lightbox="award-compsci" data-src="{{ asset('images/awards/NationalComputerScienceOlympiad.jpg') }}">
+                            <img src="{{ asset('images/awards/NationalComputerScienceOlympiad.jpg') }}" alt="Gold Medal – National Computer Science Olympiad" class="h-64 w-full object-contain mx-auto transition-transform duration-500 hover:scale-105" />
                         </button>
                         <div class="p-6">
                             <div class="flex items-start justify-between gap-4 mb-4">
-                                <div class="flex items-center gap-3">
+                                <div class="flex items-start gap-3">
                                     <div class="w-14 h-14 rounded-2xl bg-[#252526] border border-[#FFD700]/50 flex items-center justify-center text-3xl text-[#FFD700]">🥇</div>
                                     <div>
-                                        <h3 class="font-bold text-[#d4d4d4] leading-tight">Gold Medal – National Computer Science Olympiad</h3>
+                                        <h3 class="text-xl font-bold text-[#d4d4d4]">Gold Medal – National Computer Science Olympiad</h3>
                                         <p class="text-sm text-[#9d9d9d] mt-1">Global Youth Action</p>
                                     </div>
                                 </div>
@@ -76,16 +76,16 @@
                         </div>
                     </article>
 
-                    <article class="bg-[#2d2d2d] border border-[#3e3e42] rounded-3xl overflow-hidden hover:border-[#C0C0C0] hover:shadow-lg transition-all duration-300">
-                        <button type="button" class="block overflow-hidden" data-lightbox="award-computer" data-src="{{ asset('images/awards/NationalComputerOlympiad.jpg') }}">
-                            <img src="{{ asset('images/awards/NationalComputerOlympiad.jpg') }}" alt="Silver Medal – National Computer Olympiad" class="h-44 w-full object-cover transition-transform duration-500 hover:scale-105" />
+                    <article class="bg-[#2d2d2d] border border-[#C0C0C0] rounded-3xl overflow-hidden hover:shadow-lg transition-all duration-300">
+                        <button type="button" class="block w-full bg-[#1a1a1a] p-4" data-lightbox="award-computer" data-src="{{ asset('images/awards/NationalComputerOlympiad.jpg') }}">
+                            <img src="{{ asset('images/awards/NationalComputerOlympiad.jpg') }}" alt="Silver Medal – National Computer Olympiad" class="h-64 w-full object-contain mx-auto transition-transform duration-500 hover:scale-105" />
                         </button>
                         <div class="p-6">
                             <div class="flex items-start justify-between gap-4 mb-4">
-                                <div class="flex items-center gap-3">
+                                <div class="flex items-start gap-3">
                                     <div class="w-14 h-14 rounded-2xl bg-[#252526] border border-[#C0C0C0]/50 flex items-center justify-center text-3xl text-[#C0C0C0]">🥈</div>
                                     <div>
-                                        <h3 class="font-bold text-[#d4d4d4] leading-tight">Silver Medal – National Computer Olympiad</h3>
+                                        <h3 class="text-xl font-bold text-[#d4d4d4]">Silver Medal – National Computer Olympiad</h3>
                                         <p class="text-sm text-[#9d9d9d] mt-1">Indonesian Competition Institute</p>
                                     </div>
                                 </div>
@@ -105,18 +105,23 @@
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
-                    <article class="bg-[#2d2d2d] border border-[#3e3e42] rounded-3xl p-6 hover:border-[#CD7F32] hover:shadow-lg transition-all duration-300">
-                        <div class="flex items-start justify-between gap-4 mb-4">
-                            <div class="flex items-center gap-3">
-                                <div class="w-14 h-14 rounded-2xl bg-[#252526] border border-[#CD7F32]/50 flex items-center justify-center text-3xl text-[#CD7F32]">🥉</div>
-                                <div>
-                                    <h3 class="font-bold text-[#d4d4d4] leading-tight">3rd Place – Mini PKM-KC</h3>
-                                    <p class="text-sm text-[#9d9d9d] mt-1">Liga Mahasiswa Telkom University Jakarta</p>
+                    <article class="bg-[#2d2d2d] border border-[#CD7F32] rounded-3xl overflow-hidden hover:shadow-lg transition-all duration-300">
+                        <button type="button" class="block w-full bg-[#1a1a1a] p-4" data-lightbox="award-pkm" data-src="{{ asset('images/awards/placeholder.jpg') }}">
+                            <div class="flex h-64 w-full items-center justify-center text-6xl text-[#CD7F32]">🥉</div>
+                        </button>
+                        <div class="p-6">
+                            <div class="flex items-start justify-between gap-4 mb-4">
+                                <div class="flex items-start gap-3">
+                                    <div class="w-14 h-14 rounded-2xl bg-[#252526] border border-[#CD7F32]/50 flex items-center justify-center text-3xl text-[#CD7F32]">🥉</div>
+                                    <div>
+                                        <h3 class="text-xl font-bold text-[#d4d4d4]">3rd Place – Mini PKM-KC</h3>
+                                        <p class="text-sm text-[#9d9d9d] mt-1">Liga Mahasiswa Telkom University Jakarta</p>
+                                    </div>
                                 </div>
+                                <span class="px-3 py-1 rounded-full bg-[#252526] border border-[#3e3e42] text-xs text-[#9d9d9d]">2026</span>
                             </div>
-                            <span class="px-3 py-1 rounded-full bg-[#252526] border border-[#3e3e42] text-xs text-[#9d9d9d]">2026</span>
+                            <span class="inline-flex items-center px-3 py-1 rounded-full bg-[#252526] border border-[#CD7F32]/50 text-xs font-semibold text-[#CD7F32]">Bronze Medal 🥉</span>
                         </div>
-                        <span class="inline-flex items-center px-3 py-1 rounded-full bg-[#252526] border border-[#CD7F32]/50 text-xs font-semibold text-[#CD7F32]">Bronze Medal 🥉</span>
                     </article>
                 </div>
             </div>
