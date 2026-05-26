@@ -86,4 +86,6 @@
             </a>
         </div>
     </div>
-</section>@endsection
+</section>
+
+@endsection

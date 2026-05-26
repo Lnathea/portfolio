@@ -19,7 +19,7 @@
                 @foreach ($navLinks as $link)
                     @php($isActive = request()->routeIs($link['route']))
                     <a
-                        href="{{ route($link['route']) }}"
+                        href="{{ $link['url'] ?? route($link['route']) }}"
                         class="relative py-1 font-medium transition-colors duration-300 after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-full after:bg-[#007acc] after:origin-left after:transition-transform after:duration-300 {{ $isActive ? 'text-[#007acc] after:scale-x-100' : 'text-[#9d9d9d] after:scale-x-0 hover:text-[#007acc] hover:after:scale-x-100' }}"
                         aria-current="{{ $isActive ? 'page' : 'false' }}"
                     >{{ $link['label'] }}</a>
