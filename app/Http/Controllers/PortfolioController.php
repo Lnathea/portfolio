@@ -11,6 +11,21 @@ class PortfolioController extends Controller
         return view('pages.home');
     }
 
+    public function about()
+    {
+        return view('pages.about');
+    }
+
+    public function experience()
+    {
+        return view('pages.experience');
+    }
+
+    public function awards()
+    {
+        return view('pages.awards');
+    }
+
     public function projects()
     {
         return view('pages.projects');

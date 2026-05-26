@@ -1,7 +1,10 @@
 @php
     $navLinks = [
         ['label' => 'Home', 'route' => 'home'],
+        ['label' => 'About', 'route' => 'about'],
         ['label' => 'Projects', 'route' => 'projects'],
+        ['label' => 'Experience', 'route' => 'experience'],
+        ['label' => 'Awards', 'route' => 'awards'],
         ['label' => 'Contact', 'route' => 'contact'],
     ];
 @endphp
